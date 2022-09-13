@@ -1,0 +1,193 @@
+:root {
+    --SoftBlue: rgb(139, 172, 218);
+    --Cyan: rgb(0, 255, 247);
+    --DarkBlue: rgb(13, 25, 43);
+    --VeryDarkBlue: rgb(20, 37, 61);
+    --Blue: rgb(47, 65, 91);
+    --White: hsl(0, 0%, 100%);
+    --Grande: rgb(12, 23, 41);
+    --Pequeno: rgb(11, 20, 39);
+}
+
+* {
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body {
+    display: inline-block;
+    font-family: 'Outfit', sans-serif;
+    background-color: var(--DarkBlue);
+    width: 100%;
+    height: 100%;
+    font-size: 18px;
+}
+
+.Tarjeta {
+    background-color: var(--VeryDarkBlue);
+    margin: auto;
+    margin-top: 7%;
+    width: 19em;
+    height: 32em;
+    border-radius: 1em;
+    box-shadow: 0 2em 0.3em 1em var(--Pequeno), 0 1.5em 0.3em 3em var(--Grande);
+}
+
+.FotoProducto {
+    display: flex;
+    justify-content: center;
+    margin-top: 3em;
+}
+
+.Imagen {
+    position: relative;
+    width: 16.5em;
+    height: 16.5em;
+    background-image: url(/TarjetaProducto/Media/Images/Equilibrium.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    border-radius: 0.6em;
+    margin-top: 1.3em;
+}
+
+.Imagen:hover{
+    opacity: 0.3;
+}
+
+.Imagen2{
+    position: absolute;
+    margin-top: 1.3em;
+    border-radius: 0.6em;
+    width: 16.5em;
+    height: 16.5em;
+}
+
+.Imagen2:hover{
+    opacity: 1;
+    background-image: url(/TarjetaProducto/Media/Icons/View.svg);
+    background-size: 3em;
+    background-position: center;
+    background-color: rgba(0, 255, 247, 0.3);
+    background-repeat: no-repeat;
+    cursor: pointer;
+}
+
+.Letras {
+    margin-left: 28px;
+    margin-top: 25px;
+}
+
+.Nombre {
+    color: var(--White);
+    font-size: 1.1em;
+    font-weight: 600;
+}
+
+.Nombre:hover {
+    color: var(--Cyan);
+    cursor: pointer;
+}
+
+.Parrafo {
+    margin-top: 28px;
+    font-size: 1.1em;
+    color: var(--SoftBlue);
+    font-weight: 300;
+    font-size: 1em;
+}
+
+.Letras2 {
+    display: flex;
+    justify-content: space-between;
+    margin: 0 28px
+}
+
+.Contenedor1 {
+    display: flex;
+    margin-top: 20px;
+}
+
+.Diamante {
+    width: 0.5em;
+    height: 0.8em;
+}
+
+.Precio {
+    margin-left: 0.3em;
+    font-size: 0.8em;
+    font-weight: 600;
+    color: var(--Cyan);
+}
+
+.Contenedor2 {
+    display: flex;
+    margin-top: 20px;
+}
+
+.Reloj {
+    width: 0.8em;
+    height: 0.8em;
+}
+
+.Dias {
+    margin-left: 0.3em;
+    font-size: 0.8em;
+    font-weight: 600;
+    color: var(--SoftBlue);
+}
+
+.Separacion {
+    margin: 0 28px;
+    margin-top: 20px;
+    height: 1px;
+    border-color: var(--Blue);
+}
+
+.Perfil {
+    display: flex;
+    align-items: center;
+}
+
+.FotoPerfil {
+    margin-top: 15px;
+    border: 1px solid var(--White);
+    border-radius: 4em;
+    width: 1.7em;
+}
+
+.Creador {
+    color: var(--SoftBlue);
+    font-size: 0.8em;
+    margin-left: 1em;
+    margin-top: 13px;
+}
+
+.NombrePerfil {
+    color: var(--White);
+    font-size: 0.8em;
+    margin-left: 5px;
+    margin-top: 13px;
+}
+
+.NombrePerfil:hover {
+    color: var(--Cyan);
+    cursor: pointer;
+}
+
+.Atributos {
+    display: flex;
+    justify-content: center;
+    margin-top: 6em;
+    font-family: 'Outfit', sans-serif;
+}
+
+.Reto {
+    font-size: 0.6em;
+    font-weight: 300;
+    color: var(--SoftBlue);
+    font-family: 'Montserrat', sans-serif;
+}
+
+.Atributos a {
+    margin-left: 0.4em;
+}

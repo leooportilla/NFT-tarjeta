@@ -1,33 +1,58 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
   <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0"> <!-- displays site properly based on user's device -->
-
-  <link rel="icon" type="image/png" sizes="32x32" href="./images/favicon-32x32.png">
-  
-  <title>Frontend Mentor | NFT preview card component</title>
-
-  <!-- Feel free to remove these styles or customise in your own stylesheet 👍 -->
-  <style>
-    .attribution { font-size: 11px; text-align: center; }
-    .attribution a { color: hsl(228, 45%, 44%); }
-  </style>
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Outfit:wght@300;400;600&display=swap" rel="stylesheet">
+  <link rel="icon" href="./Media/Icons/FrontendMentor.png">
+  <link rel="stylesheet" href="./Style/Style.css">
+  <title>Tarjeta Producto</title>
 </head>
+
 <body>
+  <main class="Tarjeta">
+    
+    <article class="FotoProducto">
+      <div class="Imagen"></div>
+      <div class="Imagen2"></div>
+    </article>
+    
+  <article class="Relleno">
+      <h1 class="Nombre Letras">Equilibrium #3429</h1>
+      <p class="Parrafo Letras">Our Equilibrium collection promotes balance and calm.</p>
+      
+      <div class="Letras Letras2">
+        <article class="Contenedor1">
+          <img class="Diamante" src="./Media/Icons/Ethereum.svg" alt="">
+          <h3 class="Precio">0.041 ETH</h3>
+        </article>
 
-  Equilibrium #3429
+        <article class="Contenedor2">
+          <img class="Reloj" src="./Media/Icons/Reloj.svg" alt="Reloj">
+          <h3 class="Dias">3 days left</h3>
+        </article>
+      </div>
+      <hr class="Separacion">
+    </article>
 
-  Our Equilibrium collection promotes balance and calm.
+    <article class="Perfil">
+      <img class="Letras FotoPerfil" src="./Media/Images/Avatar.png" alt="">
+      <h3 class="Creador">Creation of</h3>
+      <h3 class="NombrePerfil"> Jules Wyvern</h3>
+    </article>
 
-  0.041 ETH
-  3 days left
-  
-  Creation of Jules Wyvern
+  </main>
 
-  <div class="attribution">
-    Challenge by <a href="https://www.frontendmentor.io?ref=challenge" target="_blank">Frontend Mentor</a>. 
-    Coded by <a href="#">Your Name Here</a>.
-  </div>
+ <footer class="Atributos">
+    <h6 class="Reto">Challenge by</h6>
+    <a class="Reto" href="https://www.frontendmentor.io?ref=challenge" target="_blank">Frontend Mentor</a>.
+    <h6 class="Reto">Coded by</h6>
+    <a class="Reto" href="https://www.frontendmentor.io/profile/leooportilla" target="_blank">Leonardo Portilla</a>.
+  </footer>
 </body>
+
 </html>
